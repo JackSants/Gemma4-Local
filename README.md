@@ -1,4 +1,4 @@
-# ModernSite 🚀
+# Gemma4 Local Website Chat🚀
 
 A modern, responsive professional website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**, featuring an integrated **AI chat assistant** powered by **Gemma 4** running locally via **Ollama**.
 
