@@ -151,7 +151,7 @@ Make sure `ollama serve` is running alongside the app.
 | TypeScript | 5.x |
 | Tailwind CSS | 3.x |
 | Ollama | latest |
-| Gemma 4 | gemma3 (via Ollama) |
+| Gemma 4 | gemma4:e2b (via Ollama) |
 
 ---
 
