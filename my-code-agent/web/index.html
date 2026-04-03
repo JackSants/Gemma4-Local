@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Code Agent</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <h1>My Code Agent</h1>
+      <p class="muted">MVP locale: indicizza una codebase e risponde con retrieval euristico.</p>
+
+      <section class="panel">
+        <h2>1) Indicizza</h2>
+        <label>
+          Root
+          <input id="root" value="." />
+        </label>
+        <button id="indexBtn">Esegui Index</button>
+        <pre id="indexOut"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>2) Fai una domanda</h2>
+        <label>
+          Domanda
+          <input id="question" placeholder="es. dove sono definiti i tool?" />
+        </label>
+        <button id="askBtn">Chiedi</button>
+        <pre id="askOut"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>3) Crea un piano</h2>
+        <label>
+          Feature richiesta
+          <input id="feature" placeholder="es. aggiungi endpoint export csv e bottone UI" />
+        </label>
+        <button id="planBtn">Genera Piano</button>
+        <pre id="planOut"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>4) Applica modifica</h2>
+        <label>
+          Istruzione
+          <input id="instruction" placeholder="es. centra il footer" />
+        </label>
+        <label>
+          File (opzionale)
+          <input id="applyFile" placeholder="es. velvet-beauty-studio.html" />
+        </label>
+        <button id="applyBtn">Applica</button>
+        <pre id="applyOut"></pre>
+      </section>
+
+      <section class="panel">
+        <h2>5) Agent Locale (LLM)</h2>
+        <label>
+          Richiesta libera
+          <input id="agentInstruction" placeholder="es. rendi il footer piu elegante e riduci spazio verticale" />
+        </label>
+        <label>
+          File (opzionale)
+          <input id="agentFile" placeholder="es. velvet-beauty-studio.html" />
+        </label>
+        <button id="agentPreviewBtn">Preview</button>
+        <button id="agentApplyBtn">Applica Preview</button>
+        <button id="agentUndoBtn">Undo</button>
+        <pre id="agentOut"></pre>
+        <div id="agentDiff" class="diff-view" hidden></div>
+      </section>
+    </main>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

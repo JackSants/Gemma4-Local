@@ -1,0 +1,23 @@
+{
+  "name": "my-code-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal coding agent MVP scaffold (CLI + tools + API + web UI)",
+  "scripts": {
+    "dev": "node src/cli.js",
+    "index": "node src/cli.js index .",
+    "ask": "node src/cli.js ask",
+    "plan": "node src/cli.js plan",
+    "apply": "node src/cli.js apply",
+    "agent": "node src/cli.js agent",
+    "agent:preview": "node src/cli.js agent-preview",
+    "agent:apply": "node src/cli.js agent-apply",
+    "agent:undo": "node src/cli.js agent-undo",
+    "serve": "node src/server/api.js",
+    "ui": "node src/server/ui.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

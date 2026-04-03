@@ -1,0 +1,154 @@
+{
+  "root": "/Users/jacoposantarelli/Desktop/ClaudeCode/my-code-agent",
+  "createdAt": "2026-04-01T15:26:20.980Z",
+  "fileCount": 21,
+  "files": [
+    {
+      "path": "ARCHITECTURE.md",
+      "size": 728,
+      "mtimeMs": 1775054715751.4875,
+      "hash": "26650c9ffd98677d6ba865cf1df39f410a2818f3",
+      "skipped": null
+    },
+    {
+      "path": "README.md",
+      "size": 1435,
+      "mtimeMs": 1775056900831.5264,
+      "hash": "9315952eab14b5ca32b58868012b2f297920ffa1",
+      "skipped": null
+    },
+    {
+      "path": "ROADMAP.md",
+      "size": 428,
+      "mtimeMs": 1775054715671.4392,
+      "hash": "b200fd8d22120bbe86583452e11041820eead104",
+      "skipped": null
+    },
+    {
+      "path": "package.json",
+      "size": 485,
+      "mtimeMs": 1775056894604.2996,
+      "hash": "840ca86f027e0ae1e35447e0a14840f99bc8c1de",
+      "skipped": null
+    },
+    {
+      "path": "src/cli.js",
+      "size": 4188,
+      "mtimeMs": 1775056877610.519,
+      "hash": "66396df969170c140fc96c9cd7ce5a7015d8c5a1",
+      "skipped": null
+    },
+    {
+      "path": "src/config.js",
+      "size": 284,
+      "mtimeMs": 1775055915639.1492,
+      "hash": "90ff9d0ea40b11ab3e37066ab7dfa9978e9a83d0",
+      "skipped": null
+    },
+    {
+      "path": "src/engine/answer.js",
+      "size": 2275,
+      "mtimeMs": 1775056087671.1318,
+      "hash": "c6ce80aaf98cd478227e43cf1bcf71a8ab0dddcf",
+      "skipped": null
+    },
+    {
+      "path": "src/engine/apply.js",
+      "size": 2707,
+      "mtimeMs": 1775057116481.6445,
+      "hash": "dd24984b5c129a794d6e6045752610f85bc14c02",
+      "skipped": null
+    },
+    {
+      "path": "src/engine/plan.js",
+      "size": 2875,
+      "mtimeMs": 1775055946519.6523,
+      "hash": "4a1771956d1a254c4193cbbee83f23718284d3dc",
+      "skipped": null
+    },
+    {
+      "path": "src/engine/retrieval.js",
+      "size": 1186,
+      "mtimeMs": 1775055832604.944,
+      "hash": "62dfc1797b160419c5c29fcd150515e66e55794d",
+      "skipped": null
+    },
+    {
+      "path": "src/lib/fsUtils.js",
+      "size": 1579,
+      "mtimeMs": 1775054715909.2542,
+      "hash": "9de2d4a37b7e2ea60af4be443a6d1e081da80903",
+      "skipped": null
+    },
+    {
+      "path": "src/lib/indexStore.js",
+      "size": 501,
+      "mtimeMs": 1775054715987.781,
+      "hash": "f9684948bc9f1497bb485e20755ba0e0551be931",
+      "skipped": null
+    },
+    {
+      "path": "src/server/api.js",
+      "size": 3687,
+      "mtimeMs": 1775056889043.4077,
+      "hash": "46ff311f20606dde2b1b43b9c4611a49d51800d5",
+      "skipped": null
+    },
+    {
+      "path": "src/server/ui.js",
+      "size": 1055,
+      "mtimeMs": 1775054857944.4934,
+      "hash": "108a84a8e17a8bcdf0e3318d03a5ddaa12f5f647",
+      "skipped": null
+    },
+    {
+      "path": "src/tools/listDir.js",
+      "size": 427,
+      "mtimeMs": 1775054716068.3938,
+      "hash": "e9df6269027934a71b58bd649dfa46c2a3b47c9f",
+      "skipped": null
+    },
+    {
+      "path": "src/tools/readFile.js",
+      "size": 371,
+      "mtimeMs": 1775054716154.022,
+      "hash": "9f95b34513f3c96bcc6da1c0af5fb67c0acf0552",
+      "skipped": null
+    },
+    {
+      "path": "src/tools/search.js",
+      "size": 1119,
+      "mtimeMs": 1775054716246.4504,
+      "hash": "0bd1dd796a3ee964fdd957738ac75df745c7ab35",
+      "skipped": null
+    },
+    {
+      "path": "src/tools/summarizeModule.js",
+      "size": 557,
+      "mtimeMs": 1775054716337.9873,
+      "hash": "226c4785b57a3912c9b8b7693b45f60812e6b280",
+      "skipped": null
+    },
+    {
+      "path": "web/app.js",
+      "size": 1823,
+      "mtimeMs": 1775056957311.5344,
+      "hash": "7209df2213b3bd3fa0236179b9903ddc2471dc92",
+      "skipped": null
+    },
+    {
+      "path": "web/index.html",
+      "size": 1636,
+      "mtimeMs": 1775056948337.205,
+      "hash": "d354a312c47b2633e12c9c4b344849785965b9b3",
+      "skipped": null
+    },
+    {
+      "path": "web/styles.css",
+      "size": 1138,
+      "mtimeMs": 1775054716990.707,
+      "hash": "8d193eebc5aa68e71a1826c87baadce71e4c69f0",
+      "skipped": null
+    }
+  ]
+}
