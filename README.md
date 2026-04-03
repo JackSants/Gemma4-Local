@@ -66,7 +66,7 @@ Download and install Ollama from [ollama.com](https://ollama.com/download) for y
 ### 2. Pull the Gemma 4 model
 
 ```bash
-ollama pull gemma3
+ollama pull gemma4:e2b
 ```
 
 > ⚠️ The model is several GB — make sure you have enough disk space and a good connection for the first download.
@@ -85,7 +85,7 @@ Ollama will start listening on `http://localhost:11434` by default.
 curl http://localhost:11434/api/tags
 ```
 
-You should see `gemma3` listed in the response.
+You should see `gemma4` listed in the response.
 
 ---
 
